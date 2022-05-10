@@ -4,23 +4,20 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Final project template: Bootstrap</title>
+        <title>What kind of film wins Best Picture?</title>
         <!-- Bootstrap CDNs -->
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="icon" href="Academy_Award_trophy.png">
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <!-- Google font: Cinzel -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-        
         <!-- Link tag connects 'bootstrap_template.css' to this HTML file. -->
         <link rel="stylesheet" type="text/css" href="obrienfinaltemplate.css">
         
     </head>
     
     <body>
+        <!-- Bootstrap Component: Navbar -->
        <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Henry O'Brien</a>
@@ -44,10 +41,6 @@
             <li><a class="dropdown-item" href="#">Producers</a></li>
             <li><a class="dropdown-item" href="#">Lead Actors</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -56,152 +49,131 @@
     </div>
   </div>
 </nav>
+    <body id="article">
             <div class="jumbotron-fluid">
                 <div class="container">
-                    <h1 class="display-4 mb-4">What kind of film wins Best Picture?</h1>
-                    <img src="oscarstrophy.png" alt="An image of trophies from the Academy Awards" height="300px" width="300px" class= "center">
-                    <p class="dek">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h1 class="display-4 mb-4"><strong>What kind of film wins Best Picture?</strong></h1>
+                    <p class="dek">The nominees and winners highest prize of the Academy Awards, Best Picture, have been  able to reflect Hollywood's tendencies (both good and bad) in the last 10 years.</p>
+                    <img id=header_img src="oscarstrophy.png" alt="An image of trophies from the Academy Awards" height="auto" width="auto" class= "center"><figcaption class="oscars"><a href="https://www.gettyimages.com/" target="_blank">Image source: Getty Images</a></figcaption>
+                    
                 </div>
             </div>
         </div>
 
-<p class="byline"> By Henry O'Brien</p>
-<div class="spinner-border text-primary" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>
-<div class="spinner-border text-secondary" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>
-<div class="spinner-border text-success" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>
-<div class="spinner-border text-danger" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>
-<div class="spinner-border text-warning" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>
-<div class="spinner-border text-info" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>
-<div class="spinner-border text-light" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>
-<div class="spinner-border text-dark" role="status">
-  <span class="visually-hidden">Loading...</span>
-</div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="section col-md-9">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p class="byline">By Henry O'Brien</p>
+<!-- Bootstrap Component: Pill Badge -->
+<span class="badge rounded-pill bg-primary">Oscars</span>
+<span class="badge rounded-pill bg-success">Film</span>
+<span class="badge rounded-pill bg-danger">U.S.</span>
+                    <p>After over three hours of awards, terrible jokes and celebrity slaps, the 94th Academy Awards was nearing an end. Lady Gaga and Liza Minnelli took the stage at the Dolby Theatre and announced the 10 nominees for Best Picture. The nominees had been known for months and had been shown throughout the night. There were betting favorites like “The Power of the Dog” and box office smashes like “Dune”.</p>
+                    <p>But the winner that Gaga and Minnelli announced was neither of those films. Instead, it was director <a href="https://www.youtube.com/watch?v=JX4tMSq95iE">Sian Heder’s “CODA”</a>. It was a film that got attention at the 2021 Sundance Film Festival and then made its way to the streaming service Apple TV+. With the win, it became the first film to be distributed by a streaming service. As the cast and crew made it onto the stage, most of the audience didn’t clap and instead applauded by raising their hands in the air and shaking them. This is the standard mode of applause in American Sign Language, which was the primary language of “CODA”. </p>
+                    <p>This was the first time in the history of the award show that a film told in Sign Language won Best Picture. It has been part of a shift for the Oscars, as two years earlier, “Parasite” became the first non-English film to win the biggest prize. Over the past 10 years, the demographics of films that have been nominated for and won Best Picture have changed immensely in many different ways. They reflect the general trends of Hollywood, both good and bad.</p>
                 </div>
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">And the nominees for Best Picture are... <a href="https://twitter.com/hashtag/Oscars?src=hash&amp;ref_src=twsrc%5Etfw">#Oscars</a> <a href="https://t.co/wKEWVMpqwl">pic.twitter.com/wKEWVMpqwl</a></p>&mdash; The Academy (@TheAcademy) <a href="https://twitter.com/TheAcademy/status/1491044573535035395?ref_src=twsrc%5Etfw">February 8, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 <div class="col-md-3">
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="col-md-12">
-                <h3>This is a subhed</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="col-md-12">
-               <iframe title="Oscars Run Times" aria-label="Grouped Column Chart" id="datawrapper-chart-Ld8Me" src="https://datawrapper.dwcdn.net/Ld8Me/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="563"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="col-md-12">
-                <h3>This is a subhed</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8">
-                    <h3>This is a subhed</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <div class="col-md-4">
-                    <h4>Best Picture Data</h4>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Films</li>
-                        <li class="list-group-item">Directors</li>
-                        <li class="list-group-item">Producers</li>
-                        <li class="list-group-item">Actors</li>
-                    </ul>
+                <h3><strong>What kind of actor will you get?</strong></h3>
+                <p>In 2020, the College of Social Sciences at the University of California, Los Angeles completed a study titled “Hollywood Diversity Report 2020”. The study tracked the top 200 theatrical film releases to see “the degree to which women and people of color are present in front of and behind the camera.”</p>
+                <p>While the gap between male and females has shortened over the last decade, males still account for a majority of lead acting roles in Hollywood. Women made up 44.1% of the leads in top films for 2019. While it is still a minority, it is a considerable growth as women only made up 25.3% of lead roles in 2013.</p>
+                <p>The last decade of Best Picture nominees reflect this disparity. Of the last 10 years, 75% of films nominated for Best Picture had a male as the lead. This finding was completed by seeing which actor was billed as the leading role in promotions.</p>
+                <p>Columnist Marta Sundac said that Hollywood can be described as a microcosm of the world. So it makes sense to her that Hollywood is perpetuating these gender disparities in various aspects of film.</p>
+                <p>“From early film noirs imprinting the evil femme fatale stereotype in our minds, to the still mostly unbroken glass ceiling, the film industry swings heavily in favor of men,” Sundac said.</p>
+                <h3><strong>Diversity of Directors</strong></h3>
+                <p>In her column in the Highsnobiety blog, Sundac <a href="https://www.highsnobiety.com/p/movies-with-female-leads-hollywood/">argues</a> that women should not only get lead roles, but also should get the director position. This is important because the director role is held in high regard in the film industry. According to the Nashville Film Industry, “film directors make creative decisions to determine the look of a movie.”</p>
+                <!-- dataviz 1 -->
+                <div class="container-fluid">
+                    <div class="row"> 
+                    <div class="col-md-7">
+                        <iframe title="Race of Directors of Best Picture Nominees" aria-label="Grouped Column Chart" id="datawrapper-chart-NuEL9" src="https://datawrapper.dwcdn.net/NuEL9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="393"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script></div>
+                        <div class="col-md-5">    
+                        <p>But the diversity of directors also applies to race as well. This is a disparity that is more significant. In the UCLA study, only 14.4% of minorities are directors in Hollywood films in 2019. Once again, the Best Picture nominees display this gap. Of the 87 films, 64 of them had a white director.</p>
+                        <p>However, context is needed. At least among the Oscars, the diversity of directors of the last 10 years is a massive step compared to the first 80 years of the awards. There have been five nominees with Asian directors in the last 10 years compared to four before 2013. In 2009, Lee Daniels became the first Black director to have his film, “Precious: Based on the Novel 'Push' by Sapphire”, nominated for Best Picture. Since 2013, there have been nine Black directors with films nominated for the top prize.</p>
                 </div>
             </div>
-        </div>
-
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Data methodology
-                </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
+            <p>Kendall Phillips, a Syracuse University professor in Communication and Rhetorical Studies, cited the Academy of Motion Picture Arts and Sciences changing its voter base as a big reason why there has been more diversity in directors and films in general. After the 2015 Oscars, which sparked controversy after all the nominees for acting awards were white, the Academy <a href="https://www.oscars.org/news/academy-takes-historic-action-increase-diversity">changed</a> its voter base to increase diversity. Phillips also said that it is a part of the ever-changing international film industry.</p>
+            <p>“I think it's the reality that other countries invest in quality, artistic filmmaking,” Phillips said.</p>
+                <h3><strong>Critics or Fans?</strong></h3>
+                 <div class="container-fluid">
+                    <div class="row"> 
+                    <div class="col-md-6">
+                <p>For better or worse, the film and television review-aggregation website Rotten Tomatoes has become extremely <a href="https://www.latimes.com/business/hollywood/la-fi-ct-rotten-tomatoes-20170721-htmlstory.html">influential</a> in moviegoers’ decision to see a certain film. In 2015, the film studio 20th Century Fox commissioned <a href="https://www.vanityfair.com/hollywood/2017/06/how-hollywood-came-to-fear-and-loathe-rotten-tomatoes">a study</a> titled “Rotten Tomatoes and the Box Office.” The study found that the website’s influence will only grow stronger. This influence has been noticeable. If a film has a high score, film studios will put the rating in promotion.</p>   
+                <p>Rotten Tomatoes aggregates reviews from both fans and critics and creates two separate scores. In both cases, every film nominated for Best Picture in the last 10 years has both a fan and critic score higher than 50%. However, there has been a notable difference between fans and critics when it comes to these scores, especially when it comes to the winners of Best Picture.</p></div>
+                    <div class="col-md-6">
+                        <img src="westsidestory.png" alt="a commercial of the 2021 film, West Side Story, with a Rotten Tomatoes rating of 95% shown on screen" height="auto" width="auto">
+                        <p class="caption">A Rotten Tomatoes score being featured in a promo for the 2021 film, "West Side Story."</p>
+                        <figcaption>Photo taken by Henry O'Brien</figcaption>
                 </div>
             </div>
+                <p>Out of the last 10 films that won Best Picture, nine of them have a higher score from critics than fans. The common moviegoer is hearing about these films <a href="https://variety.com/2021/film/news/best-picture-oscar-nominees-consumers-unaware-movies-1234937081/">less and less</a> as the years go by. Part of this is that many of these smaller budget films are now coming out on streaming services. Half of the 2022 Best Picture nominees were released on streaming platforms. Phillips said that the platforms have stepped in to fill that artistic side of the industry.</p>
+                <p>“Hollywood has always had this tension between wanting to be an art form, and wanting to be popular,” Phillips said. “And the Academy has become, to some extent, that part of Hollywood that wants to keep validating the artistic side.”</p>
+            <!-- dataviz 2 -->
+            <div class="container-fluid">
+                <div class="row"> 
+                <div class="col-md-12">
+                    <iframe title="Critics vs. Fans" aria-label="Scatter Plot" id="datawrapper-chart-mbKXS" src="https://datawrapper.dwcdn.net/mbKXS/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+                <h3><strong>How long is this movie?</strong></h3>
+                <p>Another way the Best Picture nominees reflect Hollywood’s current tendencies is through the run time. People have felt that movies are getting longer. But that doesn’t seem to be <a href="http://www.randalolson.com/2014/01/25/movies-arent-actually-much-longer-than-they-used-to-be/">the case</a>. Even so, the average Best Picture nominated films generally fall with the Hollywood norm.</p>
+                <p>The majority of films that are nominated for Best Picture come in at a runtime of 2:00-2:29 minutes. This would make sense as according to the Internet Movie Database, the 2021 films with the highest box office gross averaged around 131 minutes (2:11).</p>
+<div class="container-fluid">
+    <!-- Bootstrap Component: Accordion -->
+    <h3>Read more about...</h3>
+    <div class="row">
+        <div class="col-md-4 linkcolor">
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Kendall Phillips
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Kendall Phillips is a professor at Syracuse University. You can find out more information about him <a href="https://vpa.syr.edu/people/kendall-phillips/"target="_blank">here.</a> <br>
+        Phillips' most recent work: <a href="https://www.academia.edu/35041627/A_Place_of_Darkness_The_Rhetoric_of_Horror_in_Early_American_Cinema">A Place of Darkness: The Rhetoric of Horror in Early American Cinema</a>. Austin, TX: University of Texas Press, 2018.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Marta Sundac
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Marta Sundac is a columnist whose work can be seen in the Highsnobiety blog and Vogue Magazine.<br>
+        You can find more of her writings <a href="https://martasundac.com/Writing/"target="_blank">here</a>.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        UCLA Study
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        You can read more about UCLA's Hollywood Diversity Report <a href="https://irle.ucla.edu/wp-content/uploads/2020/02/UCLA-Hollywood-Diversity-Report-2020-Film-2-6-2020.pdf">here</a>.
+      </div>
+    </div>
+  </div>
         </div>
-        <div class="footer col-md-12">
-            <p>This page was built in Github Pages by Henry O'Brien for the Spring 2022</p>
+        <div class="col-md-3 box">
+         <h5>Methodology</h5>
+                    <p class="card-text">See how the data was compiled and analyzed to determine the findings of this article<br>
+                    <a href="https://docs.google.com/spreadsheets/d/1zyVBaWSlNUIzu9d0dlhqDC2IDYzBRph9TGmkQ3WllNQ/edit#gid=151493936" target="_blank" class="btn btn-primary">Get the data</a></p>         
         </div>
+        <div class="col-md-4 box">
+            <p><strong>Share this article by copying the URL and pasting it in your next post!</strong></p>
+            <button type="button" class="btn btn-primary"><a href="https://facebook.com" class="link-light" target="_blank">Facebook</a></button>
+            <button type="button" class="btn btn-info"><a href="https://twitter.com" class="link-light" target="_blank">Twitter</a></button>
+        </div>
+</div>
+        <!-- JavaScript Bundle with Popper typically goes at end-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>

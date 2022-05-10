@@ -1,20 +1,30 @@
 /*This is the CSS page for our final Bootstrap template.*/
 
+#article {
+	font-family: 'adobe-caslon-pro', serif;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#header_img {
+  height: 50%;
+  width: 50%;
+}
+
 .dek {
 	font-style: italic;
-	font-family: 'Cinzel', sans-serif;
 }
 .byline {
-	font-family: Cinzel, serif;
+	font-weight: bold;
 }
 .section {
 	text-align: left;
 }
 img {
-	border: 2px solid maroon;
+  height: 75%;
+  width: 75%;
 }
 .accordion-button:not(.collapsed), .accordion-button:focus {
-	font-family: Cinzel, serif;
 	background-color: maroon;
 	color: darkgray;
 	margin-bottom: 10px;
@@ -28,15 +38,47 @@ img {
 }
 
 h1 {
-	font-family: 'Cinzel', sans-serif;
 	letter-spacing: 1px;
 	color: #FFD700;
 	text-align: center;
 }
 
-.jumbotron-fluid {
-	background-color: blue;
-	color: white;
+h3 {
+	color: #C4B454;
+}
+
+p {
+	font-size: 18px;
+	display: block;
+  margin-block-start: 21px;
+  margin-block-end: 21px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: 10px;
+	margin-top: 0px;
+}
+
+a:link {
+	color: #00A5CF
+}
+
+a:visited {
+	text-decoration: none;
+	color: #00627A
+}
+
+a:active {
+	text-decoration: none;
+	color: #F08A4B
+}
+
+a:hover {
+	text-decoration: none;
+	color: #00627A
 }
 
 .center {
@@ -46,11 +88,19 @@ h1 {
   width: 50%;
 }
 
-h3 {
-	color: #C4B454;
-	font-family: 'Cinzel', serif;
+.twitter-tweet {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-p {
-	font-family: 'Cinzel', sans-serif;
+.oscars {
+	text-indent: 800px;
+}
+
+.caption {
+	font-size: 12px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
